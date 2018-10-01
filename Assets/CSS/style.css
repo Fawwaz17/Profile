@@ -1,0 +1,119 @@
+*, body {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fee4a6;
+}
+
+/* navbar */
+nav {
+	position: relative;
+	width: 100%;
+	background-color: #fff;
+	height: 70px;
+	box-shadow: -1px -7px 20px 0px #494949;
+}
+
+nav ul {
+	position: relative;
+	top: 25px;
+	margin: 0;
+	float:  right;
+	right: 9%;
+}
+
+nav ul li {
+	float: left;
+	display: block;
+	margin: 0px 20px 0px 20px;
+}
+
+nav ul li img {
+	float: right;
+	display: block;
+	margin: 0px 20px 0px 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 20px ;
+	color: #f87d42;
+}
+
+nav ul li a:hover{
+	color: #509aaf;
+	text-decoration: underline;
+}
+
+.logo {
+	top: -15px;
+	left: 20px;
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+
+/* profile section */
+section#box-profile {
+	position: relative;
+	width: 85%;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top : 50px;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0 0 7px 0px #494949;
+	min-height: 250px;
+}
+
+#box-profile .img-profile{
+	position: relative;
+	display: inline-block;;
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	float: left;
+	top: 25px;
+	margin-left: 20px;
+}
+
+.img-profile .photo {
+	height: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0 -20px;
+	border-radius: 10px;
+}
+
+.description {
+	position: relative;
+	width: 400px;
+	display: inline-block;
+	float: left;
+	margin-left:  30px;
+	top: 50px;
+	font-family: 'Helvetica', sans-serif;
+	border-right: 1px solid #efefef
+}
+
+.description h1{
+	font-size: 21px;
+	margin-bottom: 14px;
+}
+
+.description p {
+	color: #888;
+}
+
+.description .button {
+	margin-top:  40px
+}
+
+.information{
+	position: relative;
+	display: inline-block;
+	float: left;
+	font-family: 'Helvetica', sans-serif;
+}
